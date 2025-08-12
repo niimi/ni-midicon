@@ -800,7 +800,7 @@
 			)
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/03fcd31d-8387-4f8f-a9d1-c519ea145696"
 					(page "32")
 				)
@@ -907,7 +907,7 @@
 			)
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/03fcd31d-8387-4f8f-a9d1-c519ea145696"
 					(page "33")
 				)

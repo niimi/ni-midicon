@@ -4194,7 +4194,7 @@
 			)
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/9a27d9c3-2260-4575-8c04-ae473aff735e"
 					(page "3")
 				)

@@ -961,7 +961,39 @@
 			(uuid "97a49b23-8c69-4000-9bec-68e57154a7fd")
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/2bbeb68f-7281-460f-bb90-e9cd117dd477"
+					(reference "SW?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/2cc22923-9ce4-4aa8-808d-6c760fe7d9df"
+					(reference "SW?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/5208d9d2-4e96-4def-9d10-b3d191e06d78"
+					(reference "SW?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/7be83144-9d23-4126-9a38-e06d1f766d7c"
+					(reference "SW?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/9c046405-36ef-422f-84b6-7d4c4e05e6e4"
+					(reference "SW?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/a7a6207b-b629-47b4-b6f4-0612d086e959"
+					(reference "SW?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/d8e7aaa0-d559-4ecb-bbcd-a51d3e52b666"
+					(reference "SW?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/ee451ccc-ca9e-4b8e-83ab-65cc268623c8"
+					(reference "SW?")
+					(unit 1)
+				)
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/2a4c6518-6eed-4a25-9459-9f6a8208ccfc/5036d022-086c-40b8-ab9d-aaece5e7889d"
 					(reference "SW1901")
 					(unit 1)
@@ -1039,7 +1071,39 @@
 			(uuid "b40940ce-52ed-41da-be35-03232cbb0f85")
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/2bbeb68f-7281-460f-bb90-e9cd117dd477"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/2cc22923-9ce4-4aa8-808d-6c760fe7d9df"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/5208d9d2-4e96-4def-9d10-b3d191e06d78"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/7be83144-9d23-4126-9a38-e06d1f766d7c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/9c046405-36ef-422f-84b6-7d4c4e05e6e4"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/a7a6207b-b629-47b4-b6f4-0612d086e959"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/d8e7aaa0-d559-4ecb-bbcd-a51d3e52b666"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/ee451ccc-ca9e-4b8e-83ab-65cc268623c8"
+					(reference "#PWR?")
+					(unit 1)
+				)
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/2a4c6518-6eed-4a25-9459-9f6a8208ccfc/5036d022-086c-40b8-ab9d-aaece5e7889d"
 					(reference "#PWR01903")
 					(unit 1)
@@ -1121,7 +1185,39 @@
 			(uuid "6beb99c9-a937-4ac1-b548-4ceae90c2322")
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/2bbeb68f-7281-460f-bb90-e9cd117dd477"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/2cc22923-9ce4-4aa8-808d-6c760fe7d9df"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/5208d9d2-4e96-4def-9d10-b3d191e06d78"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/7be83144-9d23-4126-9a38-e06d1f766d7c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/9c046405-36ef-422f-84b6-7d4c4e05e6e4"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/a7a6207b-b629-47b4-b6f4-0612d086e959"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/d8e7aaa0-d559-4ecb-bbcd-a51d3e52b666"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/ee451ccc-ca9e-4b8e-83ab-65cc268623c8"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/2a4c6518-6eed-4a25-9459-9f6a8208ccfc/5036d022-086c-40b8-ab9d-aaece5e7889d"
 					(reference "C1902")
 					(unit 1)
@@ -1203,7 +1299,39 @@
 			(uuid "752e7b04-eda9-4098-bad9-12090e2dfca8")
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/2bbeb68f-7281-460f-bb90-e9cd117dd477"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/2cc22923-9ce4-4aa8-808d-6c760fe7d9df"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/5208d9d2-4e96-4def-9d10-b3d191e06d78"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/7be83144-9d23-4126-9a38-e06d1f766d7c"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/9c046405-36ef-422f-84b6-7d4c4e05e6e4"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/a7a6207b-b629-47b4-b6f4-0612d086e959"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/d8e7aaa0-d559-4ecb-bbcd-a51d3e52b666"
+					(reference "C?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/ee451ccc-ca9e-4b8e-83ab-65cc268623c8"
+					(reference "C?")
+					(unit 1)
+				)
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/2a4c6518-6eed-4a25-9459-9f6a8208ccfc/5036d022-086c-40b8-ab9d-aaece5e7889d"
 					(reference "C1901")
 					(unit 1)
@@ -1281,7 +1409,39 @@
 			(uuid "6866f94a-534a-4636-8bd2-76465aee1137")
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/2bbeb68f-7281-460f-bb90-e9cd117dd477"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/2cc22923-9ce4-4aa8-808d-6c760fe7d9df"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/5208d9d2-4e96-4def-9d10-b3d191e06d78"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/7be83144-9d23-4126-9a38-e06d1f766d7c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/9c046405-36ef-422f-84b6-7d4c4e05e6e4"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/a7a6207b-b629-47b4-b6f4-0612d086e959"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/d8e7aaa0-d559-4ecb-bbcd-a51d3e52b666"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/ee451ccc-ca9e-4b8e-83ab-65cc268623c8"
+					(reference "#PWR?")
+					(unit 1)
+				)
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/2a4c6518-6eed-4a25-9459-9f6a8208ccfc/5036d022-086c-40b8-ab9d-aaece5e7889d"
 					(reference "#PWR01901")
 					(unit 1)
@@ -1359,7 +1519,39 @@
 			(uuid "c566b558-57eb-4b57-bebf-ea8d87e9111a")
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/2bbeb68f-7281-460f-bb90-e9cd117dd477"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/2cc22923-9ce4-4aa8-808d-6c760fe7d9df"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/5208d9d2-4e96-4def-9d10-b3d191e06d78"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/7be83144-9d23-4126-9a38-e06d1f766d7c"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/9c046405-36ef-422f-84b6-7d4c4e05e6e4"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/a7a6207b-b629-47b4-b6f4-0612d086e959"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/d8e7aaa0-d559-4ecb-bbcd-a51d3e52b666"
+					(reference "#PWR?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/ee451ccc-ca9e-4b8e-83ab-65cc268623c8"
+					(reference "#PWR?")
+					(unit 1)
+				)
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/2a4c6518-6eed-4a25-9459-9f6a8208ccfc/5036d022-086c-40b8-ab9d-aaece5e7889d"
 					(reference "#PWR01902")
 					(unit 1)
@@ -1447,7 +1639,39 @@
 			(uuid "5a18c085-31f5-4035-8383-3367e8a11079")
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/2bbeb68f-7281-460f-bb90-e9cd117dd477"
+					(reference "D?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/2cc22923-9ce4-4aa8-808d-6c760fe7d9df"
+					(reference "D?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/5208d9d2-4e96-4def-9d10-b3d191e06d78"
+					(reference "D?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/7be83144-9d23-4126-9a38-e06d1f766d7c"
+					(reference "D?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/9c046405-36ef-422f-84b6-7d4c4e05e6e4"
+					(reference "D?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/a7a6207b-b629-47b4-b6f4-0612d086e959"
+					(reference "D?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/d8e7aaa0-d559-4ecb-bbcd-a51d3e52b666"
+					(reference "D?")
+					(unit 1)
+				)
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/1d218571-4f07-4140-849d-c306e23382ca/ee451ccc-ca9e-4b8e-83ab-65cc268623c8"
+					(reference "D?")
+					(unit 1)
+				)
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/2a4c6518-6eed-4a25-9459-9f6a8208ccfc/5036d022-086c-40b8-ab9d-aaece5e7889d"
 					(reference "D1901")
 					(unit 1)

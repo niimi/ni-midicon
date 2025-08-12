@@ -2536,7 +2536,7 @@
 			)
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
 					(page "24")
 				)
@@ -2646,7 +2646,7 @@
 			)
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
 					(page "21")
 				)
@@ -2756,7 +2756,7 @@
 			)
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
 					(page "26")
 				)
@@ -2866,7 +2866,7 @@
 			)
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
 					(page "25")
 				)
@@ -2976,7 +2976,7 @@
 			)
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
 					(page "22")
 				)
@@ -3086,7 +3086,7 @@
 			)
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
 					(page "28")
 				)
@@ -3196,7 +3196,7 @@
 			)
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
 					(page "27")
 				)
@@ -3306,7 +3306,7 @@
 			)
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
 					(page "23")
 				)

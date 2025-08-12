@@ -40,7 +40,7 @@
 			)
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526"
 					(page "31")
 				)
@@ -82,7 +82,7 @@
 			)
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526"
 					(page "30")
 				)
@@ -124,7 +124,7 @@
 			)
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526"
 					(page "34")
 				)
@@ -166,9 +166,51 @@
 			)
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526"
 					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 166.37)
+		(size 13.97 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6db85628-77e5-457f-b161-d7d324c73fc7")
+		(property "Sheetname" "ledRing4"
+			(at 26.67 165.6584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ledRing4.kicad_sch"
+			(at 26.67 170.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "NiController"
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526"
+					(page "43")
 				)
 			)
 		)
@@ -208,7 +250,7 @@
 			)
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526"
 					(page "2")
 				)
@@ -250,7 +292,7 @@
 			)
 		)
 		(instances
-			(project "NiController_encoder4button4"
+			(project "NiController"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526"
 					(page "20")
 				)

@@ -63,20 +63,22 @@ def place_circle(modules, start_angle, center, radius, component_offset=0, hide_
 
 def place_all(d_radius, c_radius):
     d_name_list = [
-        [f"D{group:02d}{i:02d}" for i in range(1, 17)]
-        for group in range(14, 22)
+        [f"D{group:d}{i:02d}" for i in range(1, 17)]
+        for group in range(2, 6)
     ]
+    print(d_name_list)
     d_list = [find_modules_strings(ref_list) for ref_list in d_name_list]
     for id, d_inner_list in enumerate(d_list):
-        center = [id % 4 * 25 - 37.5, math.floor(id / 4) * 25 - 12.5]
+        center = [id % 2 * 25 - 12.5, math.floor(id / 2) * 25 - 12.5]
         place_circle(d_inner_list, 90, center, d_radius, 180, mils = False)
     c_name_list = [
-        [f"C{group:02d}{i:02d}" for i in range(1, 17)]
-        for group in range(14, 22)
+        [f"C{group:d}{i:02d}" for i in range(1, 17)]
+        for group in range(2, 6)
     ]
+    print(c_name_list)
     c_list = [find_modules_strings(ref_list) for ref_list in c_name_list]
     for id, c_inner_list in enumerate(c_list):
-        center = [id % 4 * 25 - 37.5, math.floor(id / 4) * 25 - 12.5]
+        center = [id % 2 * 25 - 12.5, math.floor(id / 2) * 25 - 12.5]
         place_circle(c_inner_list, 90, center, c_radius, 180, mils = False) 
 
 # import kicad_tools

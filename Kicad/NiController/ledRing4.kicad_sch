@@ -176,113 +176,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Mechanical:MountingHole_Pad"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole_Pad"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole with connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_Pad_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MountingHole_Pad_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -621,16 +514,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 96.52) (xy 160.02 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7842703f-6998-4d36-a0c3-57e86222e3c8")
-	)
-	(wire
-		(pts
 			(xy 104.14 104.14) (xy 104.14 111.76)
 		)
 		(stroke
@@ -668,16 +551,6 @@
 			(type default)
 		)
 		(uuid "90e0ac48-c753-433d-a274-aed4d406207a")
-	)
-	(wire
-		(pts
-			(xy 144.78 96.52) (xy 144.78 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7483d4b-22c2-4ea3-9116-32cc20d18044")
 	)
 	(wire
 		(pts
@@ -811,16 +684,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 96.52) (xy 152.4 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e627eb24-4f5d-4349-98cd-6decf94c08ac")
-	)
-	(wire
-		(pts
 			(xy 104.14 58.42) (xy 101.6 58.42)
 		)
 		(stroke
@@ -848,16 +711,6 @@
 			(type default)
 		)
 		(uuid "eec433d3-799b-4708-ae35-ab36cbad57c3")
-	)
-	(wire
-		(pts
-			(xy 167.64 96.52) (xy 167.64 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f127248c-4e1b-498e-af0e-13961d32bbea")
 	)
 	(wire
 		(pts
@@ -989,7 +842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10f23767-2b98-43fd-ba7c-8cc59635d573")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0602"
 			(at 17.78 100.33 0)
 			(effects
 				(font
@@ -1043,154 +896,9 @@
 					(unit 1)
 				)
 			)
-			(project "NiController"
-				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
-					(reference "#PWR01302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 152.4 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "296e98eb-3128-4c1b-aaeb-7b02360be231")
-		(property "Reference" "#PWR?"
-			(at 152.4 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 152.4 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "937feb54-6808-479e-ae6e-a834797dd24d")
-		)
-		(instances
 			(project "ledRing4"
-				(path "/c015b5dc-ba6a-40c9-815e-78c54c94e5d5"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "NiController"
-				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
-					(reference "#PWR0222")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 167.64 93.98 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ba6f46c-2a35-49da-8ea2-180de9f9712c")
-		(property "Reference" "H?"
-			(at 170.18 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 170.18 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
-			(at 167.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 167.64 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f66d06d8-6bda-4cb2-81f5-b933fc610671")
-		)
-		(instances
-			(project "ledRing4"
-				(path "/c015b5dc-ba6a-40c9-815e-78c54c94e5d5"
-					(reference "H?")
-					(unit 1)
-				)
-			)
-			(project "NiController"
-				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
-					(reference "H208")
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/6db85628-77e5-457f-b161-d7d324c73fc7"
+					(reference "#PWR0602")
 					(unit 1)
 				)
 			)
@@ -1206,7 +914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31af04be-191f-4486-b0f5-be2088c7aac5")
-		(property "Reference" "J?"
+		(property "Reference" "J602"
 			(at 40.64 92.7099 0)
 			(effects
 				(font
@@ -1267,154 +975,9 @@
 					(unit 1)
 				)
 			)
-			(project ""
-				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
-					(reference "J1302")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 144.78 93.98 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4315e085-9562-4f84-9fd7-3aab9b1d0bca")
-		(property "Reference" "H?"
-			(at 147.32 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 147.32 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
-			(at 144.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 144.78 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbf11e84-ca53-4cb3-9daf-ae1e8440423f")
-		)
-		(instances
 			(project "ledRing4"
-				(path "/c015b5dc-ba6a-40c9-815e-78c54c94e5d5"
-					(reference "H?")
-					(unit 1)
-				)
-			)
-			(project "NiController"
-				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
-					(reference "H205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f7016c1-d5dd-4bac-ba98-40384d9142e7")
-		(property "Reference" "#PWR?"
-			(at 160.02 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ce0f60c-2112-4529-9a22-35c1a5b1e88d")
-		)
-		(instances
-			(project "ledRing4"
-				(path "/c015b5dc-ba6a-40c9-815e-78c54c94e5d5"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "NiController"
-				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
-					(reference "#PWR0223")
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/6db85628-77e5-457f-b161-d7d324c73fc7"
+					(reference "J602")
 					(unit 1)
 				)
 			)
@@ -1430,7 +993,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71f0be8c-e2ab-4c8e-81b0-613aa8df9d90")
-		(property "Reference" "J?"
+		(property "Reference" "J601"
 			(at 40.64 77.4699 0)
 			(effects
 				(font
@@ -1491,154 +1054,9 @@
 					(unit 1)
 				)
 			)
-			(project ""
-				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
-					(reference "J1301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 167.64 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "874472fd-d3b9-4f6f-8556-a1e5877fe7cd")
-		(property "Reference" "#PWR?"
-			(at 167.64 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d750b862-6c7d-4c25-8361-73f4c42debeb")
-		)
-		(instances
 			(project "ledRing4"
-				(path "/c015b5dc-ba6a-40c9-815e-78c54c94e5d5"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "NiController"
-				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
-					(reference "#PWR0224")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 152.4 93.98 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f865d8d-1d5b-4b79-b63f-e03f79b95abb")
-		(property "Reference" "H?"
-			(at 154.94 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 154.94 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
-			(at 152.4 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 152.4 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8caed8a-2c0c-4a97-ac6b-a10d7be549d0")
-		)
-		(instances
-			(project "ledRing4"
-				(path "/c015b5dc-ba6a-40c9-815e-78c54c94e5d5"
-					(reference "H?")
-					(unit 1)
-				)
-			)
-			(project "NiController"
-				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
-					(reference "H206")
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/6db85628-77e5-457f-b161-d7d324c73fc7"
+					(reference "J601")
 					(unit 1)
 				)
 			)
@@ -1654,7 +1072,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94b323b3-a95b-4d89-9ea5-6b7646ece9fa")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0601"
 			(at 17.78 85.09 0)
 			(effects
 				(font
@@ -1708,9 +1126,9 @@
 					(unit 1)
 				)
 			)
-			(project "NiController"
-				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
-					(reference "#PWR01301")
+			(project "ledRing4"
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/6db85628-77e5-457f-b161-d7d324c73fc7"
+					(reference "#PWR0601")
 					(unit 1)
 				)
 			)
@@ -1726,7 +1144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b09d4993-98fd-406d-a6a3-bc1256436487")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0604"
 			(at 104.14 118.11 0)
 			(effects
 				(font
@@ -1780,154 +1198,9 @@
 					(unit 1)
 				)
 			)
-			(project "NiController"
-				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
-					(reference "#PWR01304")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 144.78 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba49e83e-6959-4a51-8480-4f6be688ff43")
-		(property "Reference" "#PWR?"
-			(at 144.78 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.78 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8d611c5-fe01-44ae-950c-ef202458a0a4")
-		)
-		(instances
 			(project "ledRing4"
-				(path "/c015b5dc-ba6a-40c9-815e-78c54c94e5d5"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "NiController"
-				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
-					(reference "#PWR0221")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 160.02 93.98 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e567c09f-d817-4929-be69-97711924ad6a")
-		(property "Reference" "H?"
-			(at 162.56 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 162.56 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad_Via"
-			(at 160.02 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 160.02 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 160.02 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28b225d2-9dc9-4ced-9351-45498e5bcc60")
-		)
-		(instances
-			(project "ledRing4"
-				(path "/c015b5dc-ba6a-40c9-815e-78c54c94e5d5"
-					(reference "H?")
-					(unit 1)
-				)
-			)
-			(project "NiController"
-				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
-					(reference "H207")
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/6db85628-77e5-457f-b161-d7d324c73fc7"
+					(reference "#PWR0604")
 					(unit 1)
 				)
 			)
@@ -1943,7 +1216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd2d550a-e193-4d37-ac1e-41cd5102df0e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0603"
 			(at 73.66 118.11 0)
 			(effects
 				(font
@@ -1997,9 +1270,9 @@
 					(unit 1)
 				)
 			)
-			(project "NiController"
-				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
-					(reference "#PWR01303")
+			(project "ledRing4"
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/6db85628-77e5-457f-b161-d7d324c73fc7"
+					(reference "#PWR0603")
 					(unit 1)
 				)
 			)
@@ -2108,14 +1381,19 @@
 			)
 		)
 		(instances
-			(project "NiController"
-				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
-					(page "24")
-				)
-			)
 			(project "ledRing4"
 				(path "/c015b5dc-ba6a-40c9-815e-78c54c94e5d5"
 					(page "5")
+				)
+			)
+			(project ""
+				(path "/6db85628-77e5-457f-b161-d7d324c73fc7"
+					(page "#")
+				)
+			)
+			(project "NiController_ledRing4"
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/6db85628-77e5-457f-b161-d7d324c73fc7"
+					(page "41")
 				)
 			)
 		)
@@ -2223,14 +1501,19 @@
 			)
 		)
 		(instances
-			(project "NiController"
-				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
-					(page "21")
-				)
-			)
 			(project "ledRing4"
 				(path "/c015b5dc-ba6a-40c9-815e-78c54c94e5d5"
 					(page "2")
+				)
+			)
+			(project ""
+				(path "/6db85628-77e5-457f-b161-d7d324c73fc7"
+					(page "#")
+				)
+			)
+			(project "NiController_ledRing4"
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/6db85628-77e5-457f-b161-d7d324c73fc7"
+					(page "39")
 				)
 			)
 		)
@@ -2338,14 +1621,19 @@
 			)
 		)
 		(instances
-			(project "NiController"
-				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
-					(page "25")
-				)
-			)
 			(project "ledRing4"
 				(path "/c015b5dc-ba6a-40c9-815e-78c54c94e5d5"
 					(page "6")
+				)
+			)
+			(project ""
+				(path "/6db85628-77e5-457f-b161-d7d324c73fc7"
+					(page "#")
+				)
+			)
+			(project "NiController_ledRing4"
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/6db85628-77e5-457f-b161-d7d324c73fc7"
+					(page "42")
 				)
 			)
 		)
@@ -2453,22 +1741,21 @@
 			)
 		)
 		(instances
-			(project "NiController"
-				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/e11437af-7617-4088-a90f-dd3b5cc4c08d"
-					(page "23")
-				)
-			)
 			(project "ledRing4"
 				(path "/c015b5dc-ba6a-40c9-815e-78c54c94e5d5"
 					(page "3")
 				)
 			)
+			(project ""
+				(path "/6db85628-77e5-457f-b161-d7d324c73fc7"
+					(page "#")
+				)
+			)
+			(project "NiController_ledRing4"
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/6db85628-77e5-457f-b161-d7d324c73fc7"
+					(page "40")
+				)
+			)
 		)
 	)
-	(sheet_instances
-		(path "/"
-			(page "1")
-		)
-	)
-	(embedded_fonts no)
 )
