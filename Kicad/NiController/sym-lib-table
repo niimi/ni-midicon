@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "teensy")(type "Legacy")(uri "${KIPRJMOD}/LocalLibrary/teensy_library-master/teensy.lib")(options "")(descr ""))
+  (lib (name "TPS2121RUXR")(type "KiCad")(uri "${KIPRJMOD}/LocalLibrary/TPS2121RUXR/TPS2121RUXR.kicad_sym")(options "")(descr ""))
+)

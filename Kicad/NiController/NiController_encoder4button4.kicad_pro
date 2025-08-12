@@ -188,6 +188,8 @@
       "track_widths": [
         0.0,
         0.25,
+        0.3,
+        0.4,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -629,35 +631,35 @@
     ],
     [
       "3f793823-2894-41c7-9975-4cde7a4dafd3",
-      "encoder9"
+      "encoder0"
     ],
     [
       "39604985-688c-4575-847e-d89e5205f7da",
-      "encoder9"
+      "encoder1"
     ],
     [
       "1591952b-7219-4fd4-b3f0-458d12ccf0f3",
-      "encoder9"
+      "encoder2"
     ],
     [
       "b5492b6a-c021-415c-9463-e73e44a350ea",
-      "encoder9"
+      "encoder3"
     ],
     [
       "7848a5fa-b735-4f8f-a160-a2175eb93c9c",
-      "button9"
+      "button0"
     ],
     [
       "5a740173-4e41-4579-a1ca-f0a6dcb4ec0f",
-      "button9"
+      "button1"
     ],
     [
       "5036d022-086c-40b8-ab9d-aaece5e7889d",
-      "button9"
+      "button2"
     ],
     [
       "ce2eb137-28c1-4820-b34f-9824f63173b5",
-      "button9"
+      "button3"
     ],
     [
       "2a4c6518-6eed-4a25-9459-9f6a8208ccfc",
