@@ -5,6 +5,177 @@
 	(uuid "2db3c994-e9e3-45c9-863f-fb307dc37adc")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -1614,7 +1785,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 128.905) (xy 60.325 128.905)
+			(xy 50.8 142.875) (xy 58.42 142.875)
 		)
 		(stroke
 			(width 0)
@@ -1634,7 +1805,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.325 128.905) (xy 60.325 131.445)
+			(xy 58.42 142.875) (xy 58.42 145.415)
 		)
 		(stroke
 			(width 0)
@@ -1863,7 +2034,7 @@
 		(uuid "1225e458-7a65-4105-8d84-ed72c7cc01cd")
 	)
 	(label "LED_5V"
-		(at 52.705 133.985 0)
+		(at 50.8 147.955 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1913,7 +2084,7 @@
 		(uuid "2430bd77-5af2-4d4e-9bc3-573d073ce3f0")
 	)
 	(label "LED_RING_DOUT"
-		(at 52.705 131.445 0)
+		(at 50.8 145.415 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2593,88 +2764,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
-		(at 45.085 131.445 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4bec9d29-3160-4fa8-a836-3f088fab645b")
-		(property "Reference" "J3803"
-			(at 46.355 122.555 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x03_Odd_Even"
-			(at 46.355 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
-			(at 45.085 131.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.085 131.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 45.085 131.445 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "44300cb6-0bc3-4677-a3b9-0d661adf2dc7")
-		)
-		(pin "1"
-			(uuid "d4196274-6ac8-431b-93f9-b1374b73e04d")
-		)
-		(pin "5"
-			(uuid "56eb8211-566b-42b2-a9e4-324b1f15d3ac")
-		)
-		(pin "2"
-			(uuid "71808d0b-c47e-43be-a29f-2f297f27eda3")
-		)
-		(pin "4"
-			(uuid "210d7045-eea6-4340-8f02-6e4651973b5f")
-		)
-		(pin "6"
-			(uuid "ced548f6-3fdf-468e-93f3-33a1d19d2517")
-		)
-		(instances
-			(project "NiController"
-				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/2a4c6518-6eed-4a25-9459-9f6a8208ccfc"
-					(reference "J3803")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 60.325 131.445 0)
+		(at 58.42 145.415 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2683,7 +2774,7 @@
 		(fields_autoplaced yes)
 		(uuid "4dc8874d-6384-403b-a961-5e402a4f7bc8")
 		(property "Reference" "#PWR03805"
-			(at 60.325 137.795 0)
+			(at 58.42 151.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2692,7 +2783,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 60.325 136.525 0)
+			(at 58.42 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2700,7 +2791,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.325 131.445 0)
+			(at 58.42 145.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2709,7 +2800,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.325 131.445 0)
+			(at 58.42 145.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2718,7 +2809,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.325 131.445 0)
+			(at 58.42 145.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2800,6 +2891,79 @@
 			(project "NiController"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/2a4c6518-6eed-4a25-9459-9f6a8208ccfc"
 					(reference "H3802")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 45.72 145.415 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "694ee230-7fdc-4992-85b1-6b9fe71779c5")
+		(property "Reference" "J1003"
+			(at 42.545 144.1449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 42.545 146.6849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 45.72 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 45.72 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be8976cf-a37e-4703-bcc6-1eaa81cc8a00")
+		)
+		(pin "2"
+			(uuid "486cbf77-942f-4c05-b6d2-f25800989044")
+		)
+		(pin "3"
+			(uuid "58274186-e8ea-4e6a-bad0-7034dab9e9bc")
+		)
+		(instances
+			(project ""
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/2a4c6518-6eed-4a25-9459-9f6a8208ccfc"
+					(reference "J1003")
 					(unit 1)
 				)
 			)
@@ -3351,6 +3515,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 45.085 131.445 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db840156-4425-4922-8bc7-0584f934403d")
+		(property "Reference" "J1002"
+			(at 48.26 130.1749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 48.26 132.7149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 45.085 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.085 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 45.085 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a4d0e5e-2cf0-4537-b5bb-94295d772d7c")
+		)
+		(pin "2"
+			(uuid "8c915f71-83aa-400d-b22d-e49d24a2d89f")
+		)
+		(pin "3"
+			(uuid "ab71c633-4323-4b5b-8943-31a160b729e8")
+		)
+		(instances
+			(project ""
+				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/2a4c6518-6eed-4a25-9459-9f6a8208ccfc"
+					(reference "J1002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x10_Odd_Even")
 		(at 43.18 35.56 0)
 		(unit 1)
@@ -3547,7 +3784,7 @@
 			)
 		)
 		(instances
-			(project "NiController"
+			(project "NiController_encoder4button4"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/2a4c6518-6eed-4a25-9459-9f6a8208ccfc"
 					(page "6")
 				)
@@ -3629,7 +3866,7 @@
 			)
 		)
 		(instances
-			(project "NiController"
+			(project "NiController_encoder4button4"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/2a4c6518-6eed-4a25-9459-9f6a8208ccfc"
 					(page "5")
 				)
@@ -3711,7 +3948,7 @@
 			)
 		)
 		(instances
-			(project "NiController"
+			(project "NiController_encoder4button4"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/2a4c6518-6eed-4a25-9459-9f6a8208ccfc"
 					(page "4")
 				)
@@ -3803,7 +4040,7 @@
 			)
 		)
 		(instances
-			(project "NiController"
+			(project "NiController_encoder4button4"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/2a4c6518-6eed-4a25-9459-9f6a8208ccfc"
 					(page "19")
 				)
@@ -3895,7 +4132,7 @@
 			)
 		)
 		(instances
-			(project "NiController"
+			(project "NiController_encoder4button4"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/2a4c6518-6eed-4a25-9459-9f6a8208ccfc"
 					(page "9")
 				)
@@ -3987,7 +4224,7 @@
 			)
 		)
 		(instances
-			(project "NiController"
+			(project "NiController_encoder4button4"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/2a4c6518-6eed-4a25-9459-9f6a8208ccfc"
 					(page "8")
 				)
@@ -4069,7 +4306,7 @@
 			)
 		)
 		(instances
-			(project "NiController"
+			(project "NiController_encoder4button4"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/2a4c6518-6eed-4a25-9459-9f6a8208ccfc"
 					(page "7")
 				)
@@ -4161,7 +4398,7 @@
 			)
 		)
 		(instances
-			(project "NiController"
+			(project "NiController_encoder4button4"
 				(path "/e70b5343-6e83-46b0-b96e-745e0612c526/2a4c6518-6eed-4a25-9459-9f6a8208ccfc"
 					(page "29")
 				)
