@@ -1257,7 +1257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx"
+		(property "Footprint" "NiLibrary:PEC11-4xxxF-Sxxxx"
 			(at 72.39 46.736 0)
 			(effects
 				(font

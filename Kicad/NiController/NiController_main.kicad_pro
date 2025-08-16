@@ -619,6 +619,22 @@
     [
       "0ec8e54a-6fc3-442d-ab20-7305dd2533aa",
       "Teensy"
+    ],
+    [
+      "48cb3e10-8f3c-4c7b-bf1e-6a45780257dc",
+      "Mcp23S17_0"
+    ],
+    [
+      "15c85ce5-3ae2-4f01-8b90-8ea1c8076173",
+      "Mcp23S17_1"
+    ],
+    [
+      "49917f19-3dd3-46f0-b3af-d86354fee2d9",
+      "Mcp23S17_2"
+    ],
+    [
+      "4e2e2a40-baec-45b6-a562-a187f286ec6c",
+      "Mcp23S17_3"
     ]
   ],
   "text_variables": {}
